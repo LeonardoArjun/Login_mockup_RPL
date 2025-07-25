@@ -1,0 +1,122 @@
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #190024;
+  background: linear-gradient(
+    186deg,
+    /* rgba(25, 0, 36, 1) 7%, */ rgba(159, 26, 199) 36%,
+    rgba(45, 173, 212) 56%,
+    rgba(92, 47, 214) 98%
+  );
+}
+
+.container {
+  background-color: #fff;
+  width: 320px;
+  padding: 70px 5px;
+  box-shadow: 1px 2px 3px rgb(23, 49, 88);
+  border-radius: 30px;
+  text-align: center;
+  position: relative;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 3px 2px rgb(97, 95, 95);
+  background-color: #fff;
+  margin: 0 auto;
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  left: 125px;
+  top: -50px;
+  transition: 0.5s;
+}
+.avatar:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 2px #903ef3;
+}
+
+.avatar img {
+  width: 40px;
+  height: 40px;
+}
+.line {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.inputG {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 5px;
+}
+
+.inputG input {
+  padding: 10px 40px 10px 10px;
+  border-radius: 8px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.inputG .icon {
+  position: absolute;
+  top: 16px;
+  right: 80px;
+  opacity: 50%;
+}
+.inputG .icon img {
+  width: 15px;
+  height: 15px;
+}
+
+button {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #efefef;
+  font-size: 18px;
+  font-weight: bold;
+  width: 60%;
+  background-color: #7005ce;
+  padding: 7px;
+  margin-top: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #903ef3;
+  transition: 0.1s;
+  text-decoration: underline;
+}
+.forgot {
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.forgot a {
+  text-decoration: none;
+}
+.forgot a:hover {
+  text-decoration: underline;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email img {
+  background: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  padding: 7px;
+}
+.email img:hover {
+  filter: drop-shadow(0px 0px 3px #4cdeff);
+}
